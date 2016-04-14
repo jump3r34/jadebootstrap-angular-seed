@@ -10,4 +10,9 @@ router.get('/', function(req, res, next) {
   res.render('users', {title: configOther.Azure.storageAccount, author: config.AppAuthor } );
 });
 
+/* try something for redirect to angular area. */
+router.get('/try', function(req, res, next) {
+  res.render('../mainApp/views/mainView', {title: configOther.Azure.storageAccount, author: config.AppAuthor } );
+});
+
 module.exports = router;

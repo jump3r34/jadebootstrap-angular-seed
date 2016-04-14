@@ -19,4 +19,22 @@ $ npm start
   * JADE set as the default Template engine
   * Focus on high performance
   * Super-speed development using JADE mixins
+  * Angular - Single Directory Started
+  * Config file setup
+
+## Custom Configuration
+
+  * In the directory 'config' is the config.js file
+  * Edit these variables and import them using require where needed
+  * There is also a thirdPartyConfig file as well for third party configurations
+
+
+## Moving Forward
+
+  * There will likely be a fork of this seed project with angular-material
+  * The angular material fork will likely have mongo config and passport as well
+  * Please leave comments on what you may need and I will try to get it done
+  * This was simply forked from rajasegar and I added to it for angular to help people
+  * I know a lot of people could use some help on understanding how to start a MEAN app
+  * ''That was the original intent -^^- to help others with a skeleton project''
   
