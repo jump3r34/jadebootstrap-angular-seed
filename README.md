@@ -1,5 +1,5 @@
 # jadebootstrap-seed
-[JADE-Bootstrap](http://rajasegar.github.io/JADE-Bootstrap/) boilerplate project for [NodeJS](http://nodejs.org/) using [Express](http://expressjs.com) middleware
+[Jade-Bootstrap-Angular](https://github.com/jump3r34/jadebootstrap-angular-seed.git) boilerplate project for [NodeJS](http://nodejs.org/) using [Express](http://expressjs.com) middleware
 
 ## Quick Start
 
@@ -8,7 +8,7 @@
   Install the packages.
 
 ```bash
-$ git clone https://github.com/rajasegar/jadebootstrap-seed.git
+$ git clone https://github.com/jump3r34/jadebootstrap-seed.git
 $ cd jadebootstrap-seed
 $ npm install
 $ npm start
