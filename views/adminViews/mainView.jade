@@ -1,0 +1,21 @@
+//Created by New User on 4/14/2016.
+
+extends ../../node_modules/jade-bootstrap/layouts/starter
+
+append head
+    script(src="https://code.angularjs.org/1.5.4/angular.min.js")
+    script(src="js/admin/mainApp.js")
+
+
+append body
+    .container(ng-app="mainApp")
+        .starter-template
+            div(ng-controller="MainController")
+                div(ng-view)
+                    p Controller called above with greeting {{greeting}}
+                    input(type="text", placeholder="placeholder")
+                    br
+                    br
+                    button.btn(ng-click="loadInfo()") Button Load
+
+    append scripts
